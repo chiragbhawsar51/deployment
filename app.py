@@ -82,8 +82,7 @@ FINAL_FILE_DOCX_FILENAME = "Final_Cover_letter_with_table_{}.docx"
 FINAL_FILE_PDF_FILENAME = "Final_Cover_letter_with_table_{}.pdf"
 PDFS_DIRECTORY = os.path.join(app.root_path, 'pdfs')
 
-# Path to wkhtmltopdf executable
-wkhtmltopdf_path = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'  # Adjust this path according to your installation
+wkhtmltopdf_path = '/usr/bin/wkhtmltopdf  # Adjust this path according to your installation
 
 # Configure pdfkit with wkhtmltopdf path
 pdfkit_config = pdfkit.configuration(wkhtmltopdf=wkhtmltopdf_path)
