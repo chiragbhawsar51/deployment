@@ -5,7 +5,6 @@ python-docx
 pdfkit
 mammoth
 pymongo
-gridfs
 Werkzeug
 pandoc
 wkhtmlpdf
